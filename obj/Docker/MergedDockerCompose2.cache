@@ -1,0 +1,18 @@
+services:
+  CatalogDb:
+    image: mongo
+  catelog.api:
+    build:
+      context: C:\Learnings\Interview.API\ShoppingCart
+      dockerfile: Catelog.API/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_URLS: https://+:443;http://+:80
+    image: catelogapi
+    ports:
+    - target: 80
+    - target: 443
+    volumes:
+    - C:\Users\SESA645731\AppData\Roaming\ASP.NET\Https:/root/.aspnet/https:ro
+    - C:\Users\SESA645731\AppData\Roaming\Microsoft\UserSecrets:/root/.microsoft/usersecrets:ro
+version: '3.4'

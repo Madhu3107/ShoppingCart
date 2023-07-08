@@ -1,0 +1,31 @@
+services:
+  CatalogDb:
+    container_name: catalogcontainer
+    image: mongo
+    networks:
+      default: {}
+    ports:
+    - published: 27017
+      target: 27017
+    restart: always
+    volumes:
+    - mongodata:/data/db:rw
+  catelog.api:
+    build:
+      context: C:\Learnings\Interview.API\ShoppingCart
+      dockerfile: Catelog.API/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      CatelogDbSettings:CollectionName: ProductCollection
+      CatelogDbSettings:ConnectionString: mongodb://catalogcontainer:27017
+      CatelogDbSettings:DatabaseName: CatalogDb
+    image: catelogapi
+    ports:
+    - published: 8001
+      target: 80
+    volumes:
+    - C:\Users\SESA645731\AppData\Roaming\ASP.NET\Https:/root/.aspnet/https:ro
+    - C:\Users\SESA645731\AppData\Roaming\Microsoft\UserSecrets:/root/.microsoft/usersecrets:ro
+version: '3.4'
+volumes:
+  mongodata: {}

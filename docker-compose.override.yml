@@ -1,0 +1,21 @@
+version: '3.4'
+
+services:
+  CatalogDb:
+    container_name: catalogcontainer
+    ports:
+      - "27017:27017"
+    networks:
+      - default
+    restart: always
+  catelog.api:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - CatelogDbSettings:ConnectionString=mongodb://catalogcontainer:27017
+      - CatelogDbSettings:DatabaseName=CatalogDb
+      - CatelogDbSettings:CollectionName=ProductCollection
+    ports:
+      - "8001:80"
+    volumes:
+      - ${APPDATA}/Microsoft/UserSecrets:/root/.microsoft/usersecrets:ro
+      - ${APPDATA}/ASP.NET/Https:/root/.aspnet/https:ro
