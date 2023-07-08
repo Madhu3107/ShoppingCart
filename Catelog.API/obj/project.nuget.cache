@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "V136DPK/3xdPiGBsf/A7dctLqqgI1sc56Zqm+nwYzgfz+03AOF6tVeAEKkCi4YyI0oju27tg6CATFmBApCYM+A==",
+  "success": true,
+  "projectFilePath": "C:\\Learnings\\ShoppingCart\\Catelog.API\\Catelog.API.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\SESA645731\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\SESA645731\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\SESA645731\\.nuget\\packages\\swashbuckle.aspnetcore\\6.5.0\\swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
+    "C:\\Users\\SESA645731\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
+    "C:\\Users\\SESA645731\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.5.0\\swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
+    "C:\\Users\\SESA645731\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.5.0\\swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}
