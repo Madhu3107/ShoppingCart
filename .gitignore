@@ -1,0 +1,27 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/Basket.API/obj/Debug/net6.0/Basket.API.assets.cache
+/.vs/ShoppingCart/FileContentIndex/e50f116b-7884-4981-abf3-0d711afe5dc8.vsidx
+/.vs/ShoppingCart/FileContentIndex/read.lock
+/.vs/ShoppingCart/v17/.suo
+/Basket.API/obj/Debug/net6.0/Basket.API.GeneratedMSBuildEditorConfig.editorconfig
+/Basket.API/obj/Basket.API.csproj.nuget.dgspec.json
+/Basket.API/obj/project.assets.json
+/Basket.API/obj/project.nuget.cache
+/Catelog.API/obj/Debug/net6.0/Catelog.API.assets.cache
+/Catelog.API/obj/Debug/net6.0/Catelog.API.GeneratedMSBuildEditorConfig.editorconfig
+/Catelog.API/obj/Catelog.API.csproj.nuget.dgspec.json
+/Catelog.API/obj/project.assets.json
+/Catelog.API/obj/project.nuget.cache
+/Discount.API/obj/Debug/net6.0/Discount.API.assets.cache
+/Discount.API/obj/Debug/net6.0/Discount.API.GeneratedMSBuildEditorConfig.editorconfig
+/Discount.API/obj/Discount.API.csproj.nuget.dgspec.json
+/Discount.API/obj/project.assets.json
+/Discount.API/obj/project.nuget.cache
+/Order.API/obj/Debug/net6.0/Order.API.assets.cache
+/Order.API/obj/Debug/net6.0/Order.API.GeneratedMSBuildEditorConfig.editorconfig
+/Order.API/obj/Order.API.csproj.nuget.dgspec.json
+/Order.API/obj/project.assets.json
+/Order.API/obj/project.nuget.cache
